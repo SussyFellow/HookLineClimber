@@ -5,8 +5,10 @@ using TMPro;
 
 public class ScoreCounter : MonoBehaviour
 {
+    //reusing a little bit of applepicker code for this one too
+    
     [Header("Dynamic")]
-    static public int score;
+    static public int score; //so the code can access the score in the losing screen scene
     private TextMeshProUGUI uiText;
 
     // Start is called before the first frame update

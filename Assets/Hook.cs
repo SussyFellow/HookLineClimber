@@ -15,7 +15,7 @@ public class Hook : MonoBehaviour
         body = GetComponent<Rigidbody2D>();
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision) //it grips into place when it touches something, and it makes a noise on contact.
     {
         noise.PlayOneShot(hookSound);
         climber.GetComponent<ProtagMovement>().isHooked = true;

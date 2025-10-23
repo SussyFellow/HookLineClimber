@@ -5,6 +5,7 @@ using TMPro;
 
 public class HighScore : MonoBehaviour
 {
+    //reusing applepicker code with some small changes because it already worked there
     static private TextMeshProUGUI _UI_TEXT;
     static private int _SCORE = 50;
 
